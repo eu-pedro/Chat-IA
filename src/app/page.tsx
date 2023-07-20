@@ -1,5 +1,10 @@
+import { Chat } from "@/components/Chat";
+
+
 export default function Home() {
   return (
-    <h1>Hello World</h1>
+    <div className="flex min-h-screen bg-slate-50 items-center justify-center">
+      <Chat />
+    </div>
   )
 }
